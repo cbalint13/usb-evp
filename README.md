@@ -27,7 +27,7 @@ Can be used in any USB port realying packets over the air.
 ## Project files
 * See the [design files](hardware) available for Altium ®, CircuitMaker ®, KiCAD and Gerber format.
 * Check [schematic](hardware/USB-eVo_v1.1.pdf) available as quick readable format.
-* There is also an CircuitMaker ® [online version](https://circuitmaker.com/Projects/Details/Cristian-Balint/USB-LoRa) available.
+* There is also an CircuitMaker ® [online version](https://circuitmaker.com/Projects/Details/Cristian-Balint/USB-EVP-LoRa) available.
 * Software tools for managing the stick and examples coming soon (WiP).
 
 ## Board images
