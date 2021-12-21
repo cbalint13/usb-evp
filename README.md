@@ -9,6 +9,9 @@ USB stick for **Event Packet** (LoRa) with integrated antenna on ISM 868/915 ban
 
 Exposes a generic USB HID interface by MCP2210, enabling OS & driver agnostic access from userland.
 
+It have a minimal BOM (bill of materials).
+![OVERVIEW-3D-SCHD](docs/images/USB-EVP-LORA-SCH.png)
+
 ## Specs:
 
 * **Smallest LoRa stick** on the market by 1.6 x 4 cm
