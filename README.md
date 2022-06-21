@@ -5,7 +5,7 @@
 
 ## Description
 
-USB stick for **Event Packet** (LoRa) with integrated antenna on ISM 868/915 bands.
+USB stick for **Event Packet** (over LoRa) with integrated antenna on ISM 868/915 bands.
 
 Exposes a generic USB HID interface by MCP2210, enabling OS & driver agnostic access from userland.
 
