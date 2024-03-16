@@ -1,0 +1,22 @@
+  863.00 - 865.00 RO-IR 01-18       25mW  0.1%  | EN 300 200 | 2013/752/UE 2006/771/CE 1999/5/CE
+  865.00 - 868.00 RO-IR 01-19       25mW  1.0%
+  868.00 - 868.60 RO-IR 01-20       25mW  1.0%
+
+* 868.60 - 869.70                   10mW  1.0% |           25kHz | high-speed/all-channels
+
+  868.70 - 869.20 RO-IR 01-21       25mW  0.1%
+
+* 869.20 - 869.25                   10mW  1.0% |           25kHz
+* 869.25 - 869.30                   10mW  1.0% |           25kHz
+* 869.03 - 869.40                   10mW  1.0% |           25kHz
+
+  869.40 - 869.65 RO-IR 01-22{a,b}  25mW  0.1% | 500mW 10%       | ECR/REC 70/03
+
+* 869.65 - 869.70                   25mW  10%  |           25khz
+
+  869.70 - 870.00 RO-IR 01-23{a,b}   5mW  ---- |  25mW  1% 25khz | ECR/REC 70/03
+
+    «Ciclu de utilizare» înseamnă raportul de timp în care echipamentul este activ și emite, pe durata
+  oricărei perioade de o oră. Condiții mai puțin restrictive în sensul articolului 3 alineatul (3) înseamnă
+  că statele membre pot permite utilizarea unor valori mai mari pentru «ciclul de utilizare».
+
