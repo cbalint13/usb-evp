@@ -26,6 +26,8 @@ Can be used in any USB port realying packets over the air.
 ![OVERVIEW-3D-TOP](docs/images/USB-EVP-LORA-3D-TOP.png)
 ![OVERVIEW-3D-BOTTOM](docs/images/USB-EVP-LORA-3D-BOTTOM.png)
 
+## EU ISM band usage 
+* [LoRa 868Mhz bands diagram](docs/legal)
 
 ## Project files
 * See the [design files](hardware) available for Altium ®, CircuitMaker ®, KiCAD and Gerber format.
