@@ -82,7 +82,7 @@ def main():
     cmap = get_cmap(32)
     bk = merge_adj_blk(bk)
 
-    fig, ax = plt.subplots( figsize = ( 30, 10 ) )
+    fig, ax = plt.subplots( figsize = ( 20, 10 ), dpi=100 )
     ax.set_ylim(300, 0)
 
     for b in bk:
@@ -117,7 +117,8 @@ def main():
 
     ax.axvline(b[1]/1000)
 
-    plt.savefig("lora-channels-EU.svg")
+    plt.savefig("lora-channels-EU.svg", format='svg', bbox_inches='tight')
+    plt.savefig("lora-channels-EU.png", format='png', bbox_inches='tight')
 
     plt.show()
     plt.close()
