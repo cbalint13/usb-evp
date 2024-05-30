@@ -7,7 +7,7 @@
 
 USB stick for **Event Packet** (over LoRa) with integrated antenna on ISM 868/915 bands.
 
-Exposes a generic USB HID interface by MCP2210, enabling OS & driver agnostic access from userland.
+Exposes a generic USB HID interface by MCP2210 directly enabling OS & driver agnostic access from userland.
 
 It have a minimal BOM (bill of materials).
 ![OVERVIEW-3D-SCHD](docs/images/USB-EVP-LORA-SCH-KICAD.png)
@@ -35,7 +35,7 @@ Can be used in any USB port realying packets over the air.
 * There is also an CircuitMaker ® [online version](https://circuitmaker.com/Projects/Details/Cristian-Balint/USB-EVP-LoRa) available.
 
 ## Software support
-* See [software](software) for conficuration and software support.
+* See [software](software) for configuration and software support.
 
 ## Board images
 ![OVERVIEW-TOP](docs/images/USB-EVP-LORA-LOT.png)
