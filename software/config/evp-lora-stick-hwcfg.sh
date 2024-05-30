@@ -2,7 +2,7 @@
 
 #
 # USB eVp Stick hardware initial configurator.
-# Copyright (C) 2019,2021  Cristian Balint <cbalint@gmail.com>
+# Copyright (C) 2019,2021  Cristian Balint <cristian dot balint at gmail dot com>
 #
 #
 # This program is free software: you can redistribute it and/or modify
@@ -94,4 +94,3 @@ echo "Using $1"
 ./mcp2210-util $1 --both --active-cs-off 2
 ./mcp2210-util $1 --both --active-cs-off 1
 ./mcp2210-util $1 --both --active-cs-on 0
-

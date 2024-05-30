@@ -37,4 +37,3 @@ Can be used in any USB port realying packets over the air.
 
 ## Board images
 ![OVERVIEW-TOP](docs/images/USB-EVP-LORA-LOT.png)
-
