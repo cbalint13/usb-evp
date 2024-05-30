@@ -216,6 +216,9 @@
 #define LR_20DB_OUTPUT_ON          0x07
 #define LR_20DB_OUTPUT_OFF         0x04
 
+#define RF_MID_BAND_THRESHOLD      525e6
+#define RSSI_OFFSET_HF_PORT        157
+#define RSSI_OFFSET_LF_PORT        164
 
 
 /*
@@ -449,6 +452,14 @@ uint32_t lora_getSignalBandwidth();
 ///
 ///
 uint32_t lora_getSpreadingFactor();
+
+///
+///  Get frequency
+///
+///  @return           FREQ as value
+///
+///
+uint32_t lora_getFrequency();
 
 ///
 ///  IQ inversion

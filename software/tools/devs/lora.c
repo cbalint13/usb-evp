@@ -552,3 +552,12 @@ uint32_t lora_getSpreadingFactor(void)
 {
     return SPIReadReg(LR_RegModemConfig2) >> 4;
 }
+
+uint32_t lora_getFrequency()
+{
+    uint64_t frf = (((uint32_t) SPIReadReg(LR_RegFrMsb) << 16)
+                 + ((uint16_t) SPIReadReg(LR_RegFrMid) << 8)
+                 + SPIReadReg(LR_RegFrLsb));
+    uint64_t frq = (frf * LORA_XOSC) >> 19;
+    return (uint32_t)frq;
+}

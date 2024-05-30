@@ -155,9 +155,14 @@ void LORA::tx_packet(uint8_t *msg_buf, const uint8_t msg_len)
     led(LED_TX, LED_OFF);
 }
 
-int8_t LORA::rssi(void)
+int16_t LORA::rssi(void)
 {
-   return (-137 + lora_readRSSI(LORA_RSSI_LAST));
+   uint32_t freq = lora_getFrequency();
+   uint8_t offset = ((freq < RF_MID_BAND_THRESHOLD) \
+                  ? RSSI_OFFSET_LF_PORT : RSSI_OFFSET_HF_PORT);
+   // read rssi of last packet received
+   int16_t rssi = (int16_t)lora_readRSSI(LORA_RSSI_LAST) - offset;
+   return rssi;
 }
 
 int8_t LORA::snr(void)

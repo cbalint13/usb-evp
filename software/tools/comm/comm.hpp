@@ -49,7 +49,7 @@ class LORA
         uint32_t rx_count(void);
 
         // Read RF values
-        int8_t rssi(void);
+        int16_t rssi(void);
         int8_t snr(void);
 
     protected:
