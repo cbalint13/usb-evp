@@ -18,7 +18,7 @@ It have a minimal BOM (bill of materials).
 * Uses FCC and CE **certified** 100mW NiceRF module
 * Own **ceramic micro-antenna** (VNA proved RF) for ISM band
 * **OS agnostic**, opensource USB stack for windows, linux, android etc
-* **C / C++ / Python** frontend with various examples and optional fast [SPECK](https://en.wikipedia.org/wiki/Speck_(cipher)) crypto stack
+* **C / C++** frontend with various examples
 * May support **LPWAN networking** (IPv6 over 802.15.4 mac layer), with third party kernel module
 
 Can be used in any USB port realying packets over the air.
@@ -29,11 +29,13 @@ Can be used in any USB port realying packets over the air.
 ## EU ISM band usage 
 * [LoRa 868Mhz bands diagram](docs/legal)
 
-## Project files
+## Design files
 * See the [design files](hardware) available for Altium ®, CircuitMaker ®, KiCAD and Gerber format.
 * Check [schematic](hardware/USB-eVo_v1.1.pdf) available as quick readable format.
 * There is also an CircuitMaker ® [online version](https://circuitmaker.com/Projects/Details/Cristian-Balint/USB-EVP-LoRa) available.
-* Software tools for managing the stick and examples coming soon (WiP).
+
+## Software support
+* See [software](software) for conficuration and software support.
 
 ## Board images
 ![OVERVIEW-TOP](docs/images/USB-EVP-LORA-LOT.png)
