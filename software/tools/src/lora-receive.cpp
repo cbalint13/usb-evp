@@ -73,10 +73,8 @@ int main(int argc, char **argv)
     const uint8_t preamblelen = 8;
     const uint8_t maxlength = 250;
 
-    char dev[] = "/dev/hidraw4";
-
     // LoRa modem
-    LORA lora(dev, headerMode, txpower, freq, bandwidth, codingrate4,
+    LORA lora(argv[1], headerMode, txpower, freq, bandwidth, codingrate4,
               spreadfactor, crcpayload, syncword, preamblelen, maxlength);
 
     uint8_t rx_len;
