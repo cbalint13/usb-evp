@@ -1,6 +1,8 @@
 # usb-evp
 **USB Event Packet** protocol (LoRA) Stick
 
+Original project dating back @ 2018 [CircuitMaker USB-EVP-LoRa](https://workspace.circuitmaker.com/Projects/Details/Cristian-Balint/USB-EVP-LoRa)
+
 ![OVERVIEW-3D-CAD](docs/images/USB-EVP-LORA-3D-CAD.png)
 
 ## Description
