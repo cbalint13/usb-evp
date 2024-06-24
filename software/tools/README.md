@@ -36,12 +36,6 @@ You can compile all tools using the provided ```make.sh```.
     157
     ...
     ```
- * Chipset (SX127x) revision check:
-
-    ```
-    $ ./bin/check-version /dev/hidraw4
-    SX127X chip version: 0x12
-    ```
 
  * LoRa receive example:
 
