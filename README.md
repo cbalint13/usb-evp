@@ -37,7 +37,13 @@ Can be used in any USB port realying packets over the air.
 * There is also an CircuitMaker ® [online version](https://circuitmaker.com/Projects/Details/Cristian-Balint/USB-EVP-LoRa) available.
 
 ## Software support
-* See [software](software) for configuration and software support.
+* See [software](software) section for configuration and support.
+
+    ```
+    $ ./bin/lora-receive /dev/hidraw4 
+    LoRa RX count #1 frame length = 14 rssi = -61 dB snr = 8 dB
+    0x00000000 20 6C 6F 72 61 20 6D 65  73 73 61 67 65 00 |  A lora message.
+    ```
 
 ## Board images
 ![OVERVIEW-TOP](docs/images/USB-EVP-LORA-LOT.png)
